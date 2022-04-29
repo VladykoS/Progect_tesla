@@ -5,23 +5,77 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>progect_tesla</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="css/style.css">
+   
+
 </head>
 <body>
+   <!-- header -->
    <header class="header">
-      <div class="container">
+      <div class="wrapper">
+
+         <!-- block nav -->
          <nav>
-            <li><img src="img/Tesla-Wordmark-Red.png" alt=""></li>
-            <li><a href="">Model S</a></li>
-            <li><a href="">Model X</a></li>
-            <li><a href="">Model 3</a></li>
-            <li><a href="">Roadster</a></li>
-            <li><a href="">Energy</a></li>
-            <li><a href="">Магазин</a></li>
-            <li><a href="">Войти</a></li>
-            <li><img src="img/menu.png" alt=""></li>
+            <!-- логотип -->
+            <article class="logo">
+               <a href="#"><img src="img/Tesla-Wordmark-Red.png" alt=""></a>
+            </article>
+            <!-- logo main center -->
+            <ul class="menu_1">
+               <li><a href="" class="item1 menu__item active">Model S</a></li>
+               <li><a href="" class="item2 menu__item">Model X</a></li>
+               <li><a href="" class="item3 menu__item">Model 3</a></li>
+               <li><a href="" class="item4 menu__item">Roadster</a></li>
+               <li><a href="" class="item5 menu__item">Energy</a></li>
+            </ul>
+            <!-- logo main right -->
+            <ul class="menu_2">
+               <li><a href="" class="menu__item">Магазин</a></li>
+               <li><a href="" class="menu__item">Увійти</a></li>
+               <li><a href=""><img src="img/menu.png" alt=""></a></li>
+            </ul>
          </nav>
 
+         <!-- block title -->
+         <article class="tesla_title">
+            <h1>Model S</h1>
+            <p>Ласкаво просимо у майбутнє</p>
+         </article>
+
+         <!-- block info -->
+         <div class="tesla_info">
+
+            <!-- 0-100 -->
+            <article class="info_block">
+               <img class="info_block_img" src="img/Speed.png" alt="">
+               <div class="info_block_text">
+                  <div class="info_block_text1">2,7 <span>сек</span></div>
+                  <div class="info_block_text2">0-100 км/час</div>
+               </div>
+            </article>
+
+            <!-- power reserve -->
+            <article class="info_block">
+               <img class="info_block_img" src="img/Road icon.png" alt="">
+               <div class="info_block_text">
+                  <div class="info_block_text1">632 <span>км</span></div>
+                  <div class="info_block_text2">запас ходу</div>
+               </div>
+            </article>
+
+            <!-- test drive -->
+            <article class="test_drive">
+               <img src="img/steering-wheel.png" alt="">
+               <div>Тест драйв</div>
+            </article>
+            
+            <!-- botton order -->
+            <div class="order">Замовити</div>
+         </div>
+         <a href="" class="go_bottom"><img src="img/Vector-1.png" alt=""></a>
       </div>
    </header>
 </body>
